@@ -1,5 +1,5 @@
 (defproject cljobjc "0.1.0-SNAPSHOT"
-  :plugins [[lein-objcbuild "0.1.7"]]
+  :plugins [[lein-objcbuild "0.1.8"]]
   :aot :all
   :objcbuild {:archs [:i386 :x86_64]
               :frameworks [:Foundation :Security]
