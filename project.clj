@@ -4,4 +4,4 @@
   :objcbuild {:archs [:i386 :x86_64]
               :frameworks [:Foundation :Security]
               :main cljobjc.core/main}
-  :dependencies [[galdolber/clojure-objc "1.7.0-beta2"]])
+  :dependencies [[galdolber/clojure-objc "1.7.0-beta3"]])
