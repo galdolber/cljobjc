@@ -1,7 +1,5 @@
 (defproject cljobjc "0.1.0-SNAPSHOT"
   :plugins [[lein-objcbuild "0.1.8"]]
   :aot :all
-  :objcbuild {:archs [:i386 :x86_64]
-              :frameworks [:Foundation :Security]
-              :main cljobjc.core/main}
-  :dependencies [[galdolber/clojure-objc "1.7.0-beta3"]])
+  :objcbuild {:main cljobjc.core/main}
+  :dependencies [[galdolber/clojure-objc "1.7.0-RC1"]])
